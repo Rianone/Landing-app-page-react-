@@ -42,15 +42,15 @@ function App() {
             </a>
           </div><div className="container-fluid first-section pt-5 pb-5">
               <div className="row ms-4 me-4 pb-3 pt-3">
-                <div className="col-lg-4 col-md-4 pe-1 text-center">
+                <div className="col-lg-4 col-md-4 pe-1 mb-3 text-center">
                   <img src="./images/img1.png" alt="Font image" />
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit perferendis laborum totam tempore sequi porro tenetur quia.</p>
                 </div>
-                <div className="col-lg-4 col-md-4 pe-1 text-center">
+                <div className="col-lg-4 col-md-4 pe-1 mb-3 text-center">
                   <img src="./images/img2.png" alt="Font image" />
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit perferendis laborum totam tempore sequi porro tenetur quia.</p>
                 </div>
-                <div className="col-lg-4 col-md-4 pe-1 text-center">
+                <div className="col-lg-4 col-md-4 pe-1 mb-3 text-center">
                   <img src="./images/img3.png" alt="Font image" />
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit perferendis laborum totam tempore sequi porro tenetur quia.</p>
                 </div>
@@ -81,7 +81,7 @@ function App() {
                     <div className='text-center'>
                       <h2 className="title-1 title display-6">About Us</h2>
                       <img src="./images/ligne_deco_3.png" alt="Decoration line" />
-                      <p className="title sub-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />  Lorem ipsum dolor sit, amet consectetur adipisicing <br /> Lorem ipsum dolor sit, amet consectetur adipi</p>
+                      <p className="title sub-title mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />  Lorem ipsum dolor sit, amet consectetur adipisicing <br /> Lorem ipsum dolor sit, amet consectetur adipi</p>
                       <img src="./images/signature.png" alt="Signature" />
                     </div>
                   </div>

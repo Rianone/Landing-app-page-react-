@@ -67,4 +67,7 @@
   .App .nav .nav-item{
     margin-left: 0rem !important;
   }
+  .App .third-section .sub-title{
+    font-size: 1rem;
+  }
 }

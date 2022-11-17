@@ -6,6 +6,13 @@
   box-sizing: border-box;
   font-family: "XenoisSerifWO1";
 }
+.App .loader-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .App .nav .nav-item:hover{
   border: 2px #9d9b9b solid;
   background-color: rgba(0, 0, 0, 0.082) !important;
@@ -17,6 +24,7 @@
 .App .nav .nav-item{
   text-align: center;
   transition: all 0.5s ease-in-out;
+  margin-left: 2rem !important;
 }
 .text-bold{
   font-weight: bold !important;
@@ -46,4 +54,17 @@
 }
 .App .third-section .sub-title{
   font-size: 2rem;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 1000px) {
+    .lead_image{
+      display: none;
+    }
+}
+@media only screen and (max-width: 650px) {
+  .App .nav .nav-item{
+    margin-left: 0rem !important;
+  }
 }

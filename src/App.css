@@ -1,0 +1,49 @@
+@import url(//db.onlinewebfonts.com/c/304cd7b19d44796bffcbcedec172f254?family=XenoisSerifW01-Regular);
+
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  font-family: "XenoisSerifWO1";
+}
+.App .nav .nav-item:hover{
+  border: 2px #9d9b9b solid;
+  background-color: rgba(0, 0, 0, 0.082) !important;
+}
+.bg-light{
+  background-color: #f3f3f3 !important;
+}
+
+.App .nav .nav-item{
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.text-bold{
+  font-weight: bold !important;
+}
+.App .title{
+  color: #595656;
+}
+.App .title-1{
+  margin-top: 10rem !important;
+}
+.App .first-section{
+  background: #facd12;
+}
+.App .first-section img{
+  width: 10rem;
+  height: 7.5rem;
+}
+.App .second-section{
+  margin-bottom: 8rem !important;
+}
+.App .second-section .lines{
+  width: 40% !important;
+  margin-left: 3rem !important;
+}
+.App .third-section{
+  background-color: #efefef !important;
+}
+.App .third-section .sub-title{
+  font-size: 2rem;
+}
